@@ -20,7 +20,7 @@ df = pd.DataFrame(dict(
 #Here, we are naming our Populations (1 through 4) and assigning ancestry proportions to each. 
 
 fig, axes = plt.subplots(2,2, figsize=(10, 6))
-#This is where we tell the program how many rows and columns we want our figure to have. We have 2 row and 4 pies here. 
+#This is where we tell the program how many rows and columns we want our figure to have. We have 2 rows and 4 pies here. 
 
 for i, (idx, row) in enumerate(df.set_index('Population').iterrows()):
     ax = axes[i // 2, i % 2]
