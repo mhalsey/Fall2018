@@ -1,6 +1,6 @@
 #!/usr/env/python
 ###############################################################
-#Python script that takes input from STRUCTURE Q-plot data to create pie charts for publication purposes
+#Python script that takes input from STRUCTURE Q-matrix data to create pie charts for publication purposes
 #	By: Michaela Halsey
 #	Contact : michaela.k.halsey@gmail.com
 ##############################################################
