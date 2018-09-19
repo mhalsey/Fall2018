@@ -11,7 +11,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 
 df = pd.DataFrame(dict(
-        Population='1;2;3;4'.split(';'),
+        Population='Cottle;Hall;Motley;Dickens'.split(';'),
         Q1=[0,0.48,0,0],
         Q2=[0.65,0.47,0.44,0.81],
         Q3=[0.2,0,0.32,0.03],
