@@ -15,7 +15,7 @@ os.mkdir(SP)
 blastCline = NcbiblastnCommandline(query="/home/mhalsey/starting_library.fas", db="/home/mhalsey/cPer_rn.fa", out="/home/mhalsey/%s/%s.txt" % (SP, SP), outfmt=6)
 stout, stderr = blastCline()
 
-genome = cPer_rn.fa.gz
+genome = cPer_rn.fa
 blast = cPer_rn.txt
 consTEs = starting_library.fas
 seqBuffer = 1000 
