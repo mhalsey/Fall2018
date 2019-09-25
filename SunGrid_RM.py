@@ -5,8 +5,6 @@
 # Version 25.9.19
 #########################
 
-
-
 #Imports modules that we will need
 #Will add to list once bugs are exposed
 
@@ -30,7 +28,6 @@ print os.getcwd()
 
 #The idea here is to have the working directory set before parsing arguments.
 #Unless we like typing out paths
-
 
 #Begin parsing arguments
 parser = argparse.ArgumentParser()
