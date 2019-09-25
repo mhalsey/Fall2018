@@ -44,6 +44,9 @@ parser.add_argument("-g" "--genomeDir", type=dir_path, required=True, help="Dire
 #parser.add_argument("-i", "--inv", help="Not sure what this does either")
 
 args = parser.parse_args()
+
+GENOME = args.twoBit_file
+COUNT = args.batch_count
 		
 if args.species:
     print("Processing...")
